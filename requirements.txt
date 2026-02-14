@@ -1,0 +1,3 @@
+streamlit>=1.30
+streamlit-tree-select
+st-copy-to-clipboard
