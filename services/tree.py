@@ -1,7 +1,6 @@
 import os
 
-IGNORE_FOLDERS = {"__pycache__", "venv", ".venv", ".ico" ,".png", ".jpg"}
-
+IGNORE_FOLDERS = {"__pycache__", "venv", ".venv"}
 def scan_extensions(root_dir):
     exts = set()
     for root, dirs, files in os.walk(root_dir):
