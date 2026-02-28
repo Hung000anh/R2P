@@ -13,7 +13,7 @@ init_state()
 project_path, valid_project = render_project_input()
 render_sidebar()
 
-col_content, col_select = st.columns([3, 1])
+col_content, col_select = st.columns([2, 1])
 with col_select:
     render_tree_selector(project_path, valid_project)
 
